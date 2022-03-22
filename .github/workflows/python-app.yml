@@ -36,6 +36,6 @@ jobs:
         pytest --cov=projectpython
       name: Relatório Coverage
       env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        CODECOV_TOKEN: 'k232k4nk22'
       run: |
         codecov      
