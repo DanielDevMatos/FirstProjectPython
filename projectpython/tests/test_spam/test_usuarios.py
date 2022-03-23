@@ -8,7 +8,7 @@ def test_salvar_usuario(sessao):
 
 
 def test_listar_usuario(sessao):
-    usuarios = [Usuario(nome='Daniel', email='renzo@python.pro.br'),
+    usuarios = [Usuario(nome='Daniel', email='daniel@python.pro.br'),
                 Usuario(nome='Renzo', email='renzo@python.pro.br')]
     for usuario in usuarios:
         sessao.salvar(usuario)
