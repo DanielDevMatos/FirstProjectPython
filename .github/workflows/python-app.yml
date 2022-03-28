@@ -23,8 +23,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+        pip install -q pipenv codecov flake8
+        pipenv sync --dev
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -33,9 +33,9 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --cov=projectpython
-      name: Relatório Coverage
+        pipenv run pytest --cov=projectpython
+    - name: Relatório Coverage
       env:
-        CODECOV_TOKEN: '7c02d98d-0e2e-4db1-9a51-8ba45a7a215f'
+        CODECOV_TOKEN: 'k232k4nk22'
       run: |
         codecov      
