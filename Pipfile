@@ -12,6 +12,7 @@ pytest = "*"
 coverage = "*"
 pytest-cov = "*"
 pytest-mock = "*"
+pyupio = "*"
 
 [requires]
 python_version = "3.10"
