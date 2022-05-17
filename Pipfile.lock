@@ -315,11 +315,10 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:8f4813dd6a4d6cc17bde85fb2e635fe19763f96efbb0ddf5575562e5ee0bc47a",
-                "sha256:c3d4e2ab578fbf83775755cd76dae73627915a22832cf4ea5de895978767833b"
+                "sha256:28c79c24d83c42a5e6d6cc711e5e9a6c1b89326229feaa5807fc277040658600",
+                "sha256:588ffd1dc6e20e9f4f7057aa9873fcdc26e0270362602735d32476bad67d82c5"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==61.2.0"
+            "version": "==62.3.1"
         },
         "toml": {
             "hashes": [
