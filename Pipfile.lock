@@ -237,11 +237,10 @@
         },
         "python-gitlab": {
             "hashes": [
-                "sha256:ab1fd4c98a206f22f01f832bc58f24a09952089b7bbf67cdaee6308e7797503f",
-                "sha256:fef25d41a62f91da82ee20f72a728b9c69eef34cf0a3005cdbb9a0b471d5b498"
+                "sha256:901c54ff926f10479cb591a34d65f0a3022f2bcc41074f9a192c7fa7e4c57061",
+                "sha256:b855c15e106812a4ada7c4d417def61bc211976bbf2ee1c7e0cd48a83eca4e9f"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==3.3.0"
+            "version": "==3.6.0"
         },
         "pyupio": {
             "hashes": [
