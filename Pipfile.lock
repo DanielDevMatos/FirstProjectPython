@@ -314,12 +314,8 @@
             "version": "==1.10.3"
         },
         "setuptools": {
-            "hashes": [
-                "sha256:8f4813dd6a4d6cc17bde85fb2e635fe19763f96efbb0ddf5575562e5ee0bc47a",
-                "sha256:c3d4e2ab578fbf83775755cd76dae73627915a22832cf4ea5de895978767833b"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==61.2.0"
+            "hashes": [],
+            "version": "==63.4.1"
         },
         "toml": {
             "hashes": [
