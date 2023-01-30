@@ -236,12 +236,8 @@
             "version": "==3.0.7"
         },
         "python-gitlab": {
-            "hashes": [
-                "sha256:ab1fd4c98a206f22f01f832bc58f24a09952089b7bbf67cdaee6308e7797503f",
-                "sha256:fef25d41a62f91da82ee20f72a728b9c69eef34cf0a3005cdbb9a0b471d5b498"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==3.3.0"
+            "hashes": [],
+            "version": "==3.13.0"
         },
         "pyupio": {
             "hashes": [
