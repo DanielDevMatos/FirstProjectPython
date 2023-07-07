@@ -87,12 +87,8 @@
             "version": "==2.0.12"
         },
         "click": {
-            "hashes": [
-                "sha256:19a4baa64da924c5e0cd889aba8e947f280309f1a2ce0947a3e3a7bcb7cc72d6",
-                "sha256:977c213473c7665d3aa092b41ff12063227751c41d7b17165013e10069cc5cd2"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==8.1.0"
+            "hashes": [],
+            "version": "==8.1.4"
         },
         "colorama": {
             "hashes": [
