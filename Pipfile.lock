@@ -196,12 +196,8 @@
             "version": "==2.21"
         },
         "pygithub": {
-            "hashes": [
-                "sha256:1bbfff9372047ff3f21d5cd8e07720f3dbfdaf6462fcaed9d815f528f1ba7283",
-                "sha256:2caf0054ea079b71e539741ae56c5a95e073b81fa472ce222e81667381b9601b"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==1.55"
+            "hashes": [],
+            "version": "==1.59.1"
         },
         "pyjwt": {
             "hashes": [
